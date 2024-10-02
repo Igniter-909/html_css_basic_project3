@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #eab112;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("pexels-maxyne-barcel-10402282 1.png") no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 2%;
+    height: 10vh;
+    background: rgba(0,0,0,0);
+}
+
+nav ul{
+    display: flex;
+    justify-items: center;
+    gap: 30px;
+}
+
+nav ul li{
+    list-style: none;
+    font-weight: 600;
+}
+
+button{
+    padding: 5px 30px;
+    color: white;
+    background-color: #ff4a4a;
+    font-weight: 800;
+    cursor: pointer;
+    border: none;
+    font-size: small;
+}
+
+section{
+    padding: 6vh;
+    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 124.8;
+    
+}
+.but2{
+    height: 60px;
+    margin-top: 15px;
+    width: 300px;
+    font-size: large;
+    font-family: "Fredoka", sans-serif;
+}
+
+footer{
+    display: flex;
+    justify-content: right;
+}
